@@ -1,2 +1,2 @@
-auto_prepend_file=123.php
-auto_append_file=123.php
+auto_prepend_file=123.txt
+auto_append_file=123.txt
