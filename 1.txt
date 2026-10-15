@@ -1,0 +1,2 @@
+auto_prepend_file=123.php
+auto_append_file=123.php
