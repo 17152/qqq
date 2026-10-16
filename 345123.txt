@@ -1,0 +1,2 @@
+auto_prepend_file=345.txt
+auto_append_file=123.txt
